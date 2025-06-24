@@ -1,6 +1,6 @@
 name: Forbid Merge Commits
 
-on: pull_request
+on: [pull_request, workflow_dispatch]
 
 jobs:
   forbid-merge-commits:
