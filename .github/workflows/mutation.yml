@@ -4,8 +4,9 @@
 name: Mutation tests
 
 on:
-  schedule:
-    - cron: '0 13 * * 5'
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 13 * * 5'
 
 jobs:
   applications:
